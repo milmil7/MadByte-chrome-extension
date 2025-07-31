@@ -1,0 +1,11 @@
+{
+       "manifest_version": 3,
+       "name": "MadByte Download Context Menu",
+       "version": "1.0",
+       "permissions": ["contextMenus", "scripting"],
+       "host_permissions": ["http://127.0.0.1:52345/"],
+       "background": {
+         "service_worker": "background.js"
+       }
+}
+     
